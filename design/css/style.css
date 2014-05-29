@@ -1,5 +1,5 @@
-body { padding-top: 70px; }
-.menu { margin: 0px 10px }
+body { padding-top: 70px; background: url("../images/bg.png") center top 51px; }
+.menu { margin: 0px auto; width: 90% }
 .table > thead > tr > th, 
 .table > tbody > tr > th, 
 .table > tfoot > tr > th, 
@@ -8,3 +8,4 @@ body { padding-top: 70px; }
 .table > tfoot > tr > td {
     border: none;
 }
+.seperator { width: 90% }
