@@ -18,5 +18,5 @@ config(['$routeProvider', function($routeProvider) {
 
 // Config menu collapse
 $(document).on('click',function(){
-	$('.collapse').collapse('hide');
+	$('.collapse').removeClass("in");
 })
