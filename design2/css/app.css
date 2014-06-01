@@ -9,3 +9,6 @@ body { padding-top: 70px; background: url("../images/bg.png") center top 51px; }
     border: none;
 }
 .seperator { width: 90% }
+.hideMenuPanel { width: 100%; height: 300px }
+.navbar-default { background-color: transparent; border: none;}
+#topNavigation-background { background-color: #F8F8F8}
