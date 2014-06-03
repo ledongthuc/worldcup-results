@@ -1,66 +1,26 @@
 <hr class="seperator"/>
-<h3 class="text-center">Today</h3>
+<h3 class="text-center">Matches</h3>
 <hr class="seperator"/>
 
 <table class="table">
-	<tr>
+	<tr ng-repeat="match in matches">
 		<td align="center" width="30%">
-			<img src="images/flags/ghana.png"/><br/>
-			Camaroon
+			<img src="images/flags/{{match.team1Flag}}"/><br/>
+			{{match.team1Name}}
 		</td>
 		<td align="right" valign="middle">
-			5
+			{{match.team1Score}}
 		</td>
 		<td align="center">
-			Group A<br/>
-			19:00
+			{{match.name}}<br/>
+			{{match.dateTime}}
 		</td>
 		<td align="left" valign="middle">
-		7
+		{{match.team2Score}}
 		</td>
 		<td align="center" width="30%">
-			<img src="images/flags/switzerland.png"/><br/>
-			VietNam
-		</td>
-	</tr>
-	<tr>
-		<td align="center" width="30%">
-			<img src="images/flags/russia.png"/><br/>
-			England
-		</td>
-		<td align="right" valign="middle">
-			5
-		</td>
-		<td align="center">
-			Group A<br/>
-			19:00
-		</td>
-		<td align="left" valign="middle">
-		7
-		</td>
-		<td align="center" width="30%">
-			<img src="images/flags/greece.png"/><br/>
-			U.S
-		</td>
-	</tr>
-	<tr>
-		<td align="center" width="30%">
-			<img src="images/flags/italy.png"/><br/>
-			Campuchia
-		</td>
-		<td align="right" valign="middle">
-			
-		</td>
-		<td align="center">
-			Group A<br/>
-			19:00
-		</td>
-		<td align="left" valign="middle">
-		
-		</td>
-		<td align="center" width="30%">
-			<img src="images/flags/netherlands.png"/><br/>
-			Laos
+			<img src="images/flags/{{match.team2Flag}}"/><br/>
+			{{match.team2Name}}
 		</td>
 	</tr>
 </table>

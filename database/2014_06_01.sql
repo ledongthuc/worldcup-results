@@ -84,6 +84,11 @@ CREATE TABLE `team` (
   `flag` varchar(45) COLLATE utf8_unicode_ci DEFAULT NULL,
   `order` int(11) DEFAULT NULL,
   `groupId` int(11) DEFAULT NULL,
+  `points` int(11) DEFAULT '0',
+  `goals` int(11) DEFAULT '0',
+  `wins` int(11) DEFAULT '0',
+  `loose` int(11) DEFAULT '0',
+  `draw` int(11) DEFAULT '0',
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=33 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
@@ -94,7 +99,7 @@ CREATE TABLE `team` (
 
 LOCK TABLES `team` WRITE;
 /*!40000 ALTER TABLE `team` DISABLE KEYS */;
-INSERT INTO `team` VALUES (1,'Brazil','brazil.png',NULL,1),(2,'Croatia','croatia.png',NULL,1),(3,'Mexico','mexico.png',NULL,1),(4,'Cameroon','cameroon.png',NULL,1),(5,'Spain','spain.png',NULL,2),(6,'Netherlands','netherlands.png',NULL,2),(7,'Chile','chile.png',NULL,2),(8,'Australia','australia.png',NULL,2),(9,'Colombia','colombia.png',NULL,3),(10,'Greece','greece.png',NULL,3),(11,'Ivory Coast','ivory-coast.png',NULL,3),(12,'Japan','japan.png',NULL,3),(13,'Uruguay','uruguay.png',NULL,4),(14,'Costa Rica','costa-rica.png',NULL,4),(15,'England','england.png',NULL,4),(16,'Italy','italy.png',NULL,4),(17,'Switzerland','switzerland.png',NULL,5),(18,'Ecuador','ecuador.png',NULL,5),(19,'France','france.png',NULL,5),(20,'Honduras','honduras.png',NULL,5),(21,'Argentina','argentina.png',NULL,6),(22,'Bosnia and Herzegovina','bosnia-and-herzegovina.png',NULL,6),(23,'Iran','iran.png',NULL,6),(24,'Nigeria','nigeria.png',NULL,6),(25,'Germany','germany.png',NULL,7),(26,'Portugal','portugal.png',NULL,7),(27,'Ghana','ghana.png',NULL,7),(28,'United States','united-states.png',NULL,7),(29,'Belgium','belgium.png',NULL,8),(30,'Algeria','algeria.png',NULL,8),(31,'Russia','russia.png',NULL,8),(32,'South Korea','south-korea.png',NULL,8);
+INSERT INTO `team` VALUES (1,'Brazil','brazil.png',NULL,1,0,0,0,0,0),(2,'Croatia','croatia.png',NULL,1,0,0,0,0,0),(3,'Mexico','mexico.png',NULL,1,0,0,0,0,0),(4,'Cameroon','cameroon.png',NULL,1,0,0,0,0,0),(5,'Spain','spain.png',NULL,2,0,0,0,0,0),(6,'Netherlands','netherlands.png',NULL,2,0,0,0,0,0),(7,'Chile','chile.png',NULL,2,0,0,0,0,0),(8,'Australia','australia.png',NULL,2,0,0,0,0,0),(9,'Colombia','colombia.png',NULL,3,0,0,0,0,0),(10,'Greece','greece.png',NULL,3,0,0,0,0,0),(11,'Ivory Coast','ivory-coast.png',NULL,3,0,0,0,0,0),(12,'Japan','japan.png',NULL,3,0,0,0,0,0),(13,'Uruguay','uruguay.png',NULL,4,0,0,0,0,0),(14,'Costa Rica','costa-rica.png',NULL,4,0,0,0,0,0),(15,'England','england.png',NULL,4,0,0,0,0,0),(16,'Italy','italy.png',NULL,4,0,0,0,0,0),(17,'Switzerland','switzerland.png',NULL,5,0,0,0,0,0),(18,'Ecuador','ecuador.png',NULL,5,0,0,0,0,0),(19,'France','france.png',NULL,5,0,0,0,0,0),(20,'Honduras','honduras.png',NULL,5,0,0,0,0,0),(21,'Argentina','argentina.png',NULL,6,0,0,0,0,0),(22,'Bosnia and Herzegovina','bosnia-and-herzegovina.png',NULL,6,0,0,0,0,0),(23,'Iran','iran.png',NULL,6,0,0,0,0,0),(24,'Nigeria','nigeria.png',NULL,6,0,0,0,0,0),(25,'Germany','germany.png',NULL,7,0,0,0,0,0),(26,'Portugal','portugal.png',NULL,7,0,0,0,0,0),(27,'Ghana','ghana.png',NULL,7,0,0,0,0,0),(28,'United States','united-states.png',NULL,7,0,0,0,0,0),(29,'Belgium','belgium.png',NULL,8,0,0,0,0,0),(30,'Algeria','algeria.png',NULL,8,0,0,0,0,0),(31,'Russia','russia.png',NULL,8,0,0,0,0,0),(32,'South Korea','south-korea.png',NULL,8,0,0,0,0,0);
 /*!40000 ALTER TABLE `team` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -111,4 +116,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2014-06-02 23:46:42
+-- Dump completed on 2014-06-03 22:16:53

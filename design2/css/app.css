@@ -26,7 +26,7 @@
 .flaticon-football84:before {
 	content: "\e003";
 }
-body { padding-top: 70px; background: url("../images/bg.png") center top 51px; }
+body { padding-top: 70px; background: url("../images/bg.png") center top 51px; padding-bottom: 58px}
 .menu { margin: 0px auto; width: 90% }
 .table > thead > tr > th, 
 .table > tbody > tr > th, 
@@ -40,3 +40,10 @@ body { padding-top: 70px; background: url("../images/bg.png") center top 51px; }
 .hideMenuPanel { width: 100%; height: 300px }
 .navbar-default { background-color: transparent; border: none;}
 #topNavigation-background { background-color: #F8F8F8}
+.errorPanel {
+	bottom: 0px;
+	left: 0px;
+	position: fixed;
+	text-align: center;
+	width: 100%;
+}
