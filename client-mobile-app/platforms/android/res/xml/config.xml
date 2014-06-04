@@ -5,12 +5,12 @@
     <feature name="App">
         <param name="android-package" value="org.apache.cordova.App" />
     </feature>
-    <name>WorldCupResults</name>
+    <name>WorldCup Results</name>
     <description>
-        A sample Apache Cordova application that responds to the deviceready event.
+        WorldCup Results will bring you all the latest results and upcoming fixtures on the road to Brazil 2014.
     </description>
-    <author email="dev@cordova.apache.org" href="http://cordova.io">
-        Apache Cordova Team
+    <author email="ledongthuc@gmail.com" href="http://thuc.com.vn">
+        Thuc Le
     </author>
     <content src="index.html" />
     <access origin="*" />

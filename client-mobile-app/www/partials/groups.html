@@ -1,0 +1,43 @@
+<div class="alert alert-danger errorPanel" ng-show="showError">
+	Connection has problem, the results may not latest!!
+</div>
+
+<div ng-show="groups">
+	<div ng-repeat="(groupName, group) in groups">
+		<hr class="seperator"/>
+		<h3 class="text-center">{{groupName}}</h3>
+		<hr class="seperator"/>
+		
+		<table class="table">
+			<tr>
+				<th></th>
+				<th>P</th>
+				<th>G</th>
+				<th>W</th>
+				<th>L</th>
+				<th>D</th>
+			</tr>
+			<tr ng-repeat="team in group">
+				<td align="left" width="30%">
+					<img src="images/flags/{{team.flag}}"/> 
+					{{team.name}}
+				</td>
+				<td>
+					{{team.points}}
+				</td>
+				<td>
+					{{team.goals}}
+				</td>
+				<td>
+					{{team.wins}}
+				</td>
+				<td>
+					{{team.loose}}
+				</td>
+				<td>
+					{{team.draw}}
+				</td>
+			</tr>
+		</table>
+	</div>
+</div>
