@@ -1,29 +1,34 @@
-<hr class="seperator"/>
-<h3 class="text-center">Matches</h3>
-<hr class="seperator"/>
-
-<table class="table">
-	<tr ng-repeat="match in matches">
-		<td align="center" width="30%">
-			<img src="images/flags/{{match.team1Flag}}"/><br/>
-			{{match.team1Name}}
-		</td>
-		<td align="right" valign="middle">
-			{{match.team1Score}}
-		</td>
-		<td align="center">
-			{{match.name}}<br/>
-			{{match.dateTime}}
-		</td>
-		<td align="left" valign="middle">
-		{{match.team2Score}}
-		</td>
-		<td align="center" width="30%">
-			<img src="images/flags/{{match.team2Flag}}"/><br/>
-			{{match.team2Name}}
-		</td>
-	</tr>
-</table>
+<div ng-show="groups">
+	<div ng-repeat="(groupName, matches) in groups">
+		<hr class="seperator"/>
+		<h3 class="text-center">{{groupName}}</h3>
+		<hr class="seperator"/>
+		
+		<table class="table" ng-show="matches">
+			<tr ng-repeat="match in matches">
+				<td align="center" width="30%">
+					<img src="images/flags/{{match.team1Flag}}" alt="???" /><br/>
+					{{match.team1Name}}
+				</td>
+				<td align="right" valign="middle">
+					{{match.team1Score}}
+				</td>
+				<td align="center">
+					{{match.name}}<br/>
+					{{match.dateTime}}
+				</td>
+				<td align="left" valign="middle">
+				{{match.team2Score}}
+				</td>
+				<td align="center" width="30%">
+					<img src="images/flags/{{match.team2Flag}}" alt="???" /><br/>
+					{{match.team2Name}}
+				</td>
+			</tr>
+		</table>
+		
+	</div>
+</div>
 
 <hr class="seperator"/>
 <h3 class="text-center">Menu</h3>

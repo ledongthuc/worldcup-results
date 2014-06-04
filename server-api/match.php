@@ -10,21 +10,36 @@
 			$timezoneOffset = $timezoneOffset + (int)$_GET["tz"];
 		}
 		
+		$now = "";
+		if(isset($_GET["n"])) {
+			$now = $_GET["n"];
+		}
+		
+		$isH = false;
+		if(isset($_GET["h"])) {
+			$isH = "where Date(DATE_ADD(`dateTime`, INTERVAL $timezoneOffset MINUTE)) = '$now'";
+		}
+		
 	    header('Content-Type: application/json');
 	    $mysqli = new mysqli('localhost','thaosin_worldcup','123qweASDzxc','thaosin_worldcup');
 	    $myArray = array();
-	    if ($result = $mysqli->query("SELECT name, DATE_ADD(`dateTime`, INTERVAL $timezoneOffset MINUTE) as `dateTime`, (select name from `team` where `match`.team1Id = `team`.id) as team1Name, (select flag from `team` where `match`.team1Id = `team`.id) as team1Flag, (select name from `team` where `match`.team2Id = `team`.id) as team2Name, team1Score, team2Score, (select flag from `team` where `match`.team2Id = `team`.id) as team2Flag FROM `match` order by dateTime")) {
+		
+			//echo ("SELECT name, DATE_ADD(`dateTime`, INTERVAL $timezoneOffset MINUTE) as `dateTime`, team1Name, team1Score, team1Flag, team2Name, team2Score, team2Flag FROM `match` $isH order by dateTime");
+		
+	    if ($result = $mysqli->query("SELECT name, DATE_ADD(`dateTime`, INTERVAL $timezoneOffset MINUTE) as `dateTime`, team1Name, team1Score, team1Flag, team2Name, team2Score, team2Flag FROM `match` $isH order by dateTime")) {
 	        $tempArray = array();
 	        while($row = $result->fetch_object()) {
 	        	$dateTime = new DateTime($row->dateTime);
-	        	$date = $dateTime->format('Y-m-d');
+	        	$date = $dateTime->format('Y-n-j');
+				if($date == $now) {
+					$date = "Today";
+				}
 	        	if (!array_key_exists($date, $myArray)) {
-				$group = array();
-				$myArray[$date] = $group;
-
+					$group = array();
+					$myArray[$date] = $group;
 	        	}
 	        	$row->dateTime = $dateTime->format('H:i');
-	        	$row->dateTimeLocal = (new DateTime($row->dateTimeLocal))->format('Y-m-d H:i');
+	        	$row->dateTimeLocal = (new DateTime($row->dateTimeLocal))->format('Y-n-j H:i');
 	        	array_push($myArray[$date], $row);
 	        }
 	        echo json_encode($myArray);
