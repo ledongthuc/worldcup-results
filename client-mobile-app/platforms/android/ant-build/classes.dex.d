@@ -13,6 +13,7 @@ d:\Projects\worldcup-results\client-mobile-app\platforms\android\ant-build\class
 d:\Projects\worldcup-results\client-mobile-app\platforms\android\ant-build\classes\org\apache\cordova\inappbrowser\InAppBrowser.class \
 d:\Projects\worldcup-results\client-mobile-app\platforms\android\ant-build\classes\org\apache\cordova\inappbrowser\InAppBrowserDialog.class \
 d:\Projects\worldcup-results\client-mobile-app\platforms\android\ant-build\classes\org\apache\cordova\inappbrowser\InAppChromeClient.class \
+d:\Projects\worldcup-results\client-mobile-app\platforms\android\ant-build\classes\org\apache\cordova\splashscreen\SplashScreen.class \
 d:\Projects\worldcup-results\client-mobile-app\platforms\android\ant-build\classes\vn\com\thuc\worldcupresults\BuildConfig.class \
 d:\Projects\worldcup-results\client-mobile-app\platforms\android\ant-build\classes\vn\com\thuc\worldcupresults\R$attr.class \
 d:\Projects\worldcup-results\client-mobile-app\platforms\android\ant-build\classes\vn\com\thuc\worldcupresults\R$drawable.class \

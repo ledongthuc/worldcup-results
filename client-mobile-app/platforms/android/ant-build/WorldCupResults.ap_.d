@@ -62,6 +62,7 @@ d:\Projects\worldcup-results\client-mobile-app\platforms\android\assets\www\inde
 d:\Projects\worldcup-results\client-mobile-app\platforms\android\assets\www\js \
 d:\Projects\worldcup-results\client-mobile-app\platforms\android\assets\www\partials \
 d:\Projects\worldcup-results\client-mobile-app\platforms\android\assets\www\plugins \
+d:\Projects\worldcup-results\client-mobile-app\platforms\android\assets\www\res \
 d:\Projects\worldcup-results\client-mobile-app\platforms\android\assets\www\components\angular \
 d:\Projects\worldcup-results\client-mobile-app\platforms\android\assets\www\components\angular-loader \
 d:\Projects\worldcup-results\client-mobile-app\platforms\android\assets\www\components\angular-mocks \
@@ -108,6 +109,7 @@ d:\Projects\worldcup-results\client-mobile-app\platforms\android\assets\www\imag
 d:\Projects\worldcup-results\client-mobile-app\platforms\android\assets\www\images\flags \
 d:\Projects\worldcup-results\client-mobile-app\platforms\android\assets\www\images\football65.svg \
 d:\Projects\worldcup-results\client-mobile-app\platforms\android\assets\www\images\football84.svg \
+d:\Projects\worldcup-results\client-mobile-app\platforms\android\assets\www\images\fuleco.jpg \
 d:\Projects\worldcup-results\client-mobile-app\platforms\android\assets\www\images\menu2 \
 d:\Projects\worldcup-results\client-mobile-app\platforms\android\assets\www\images\pixel.gif \
 d:\Projects\worldcup-results\client-mobile-app\platforms\android\assets\www\images\flags\algeria.png \
@@ -156,6 +158,20 @@ d:\Projects\worldcup-results\client-mobile-app\platforms\android\assets\www\part
 d:\Projects\worldcup-results\client-mobile-app\platforms\android\assets\www\partials\home.html \
 d:\Projects\worldcup-results\client-mobile-app\platforms\android\assets\www\partials\matches.html \
 d:\Projects\worldcup-results\client-mobile-app\platforms\android\assets\www\plugins\org.apache.cordova.inappbrowser \
+d:\Projects\worldcup-results\client-mobile-app\platforms\android\assets\www\plugins\org.apache.cordova.splashscreen \
 d:\Projects\worldcup-results\client-mobile-app\platforms\android\assets\www\plugins\org.apache.cordova.inappbrowser\www \
 d:\Projects\worldcup-results\client-mobile-app\platforms\android\assets\www\plugins\org.apache.cordova.inappbrowser\www\inappbrowser.js \
+d:\Projects\worldcup-results\client-mobile-app\platforms\android\assets\www\plugins\org.apache.cordova.splashscreen\www \
+d:\Projects\worldcup-results\client-mobile-app\platforms\android\assets\www\plugins\org.apache.cordova.splashscreen\www\splashscreen.js \
+d:\Projects\worldcup-results\client-mobile-app\platforms\android\assets\www\res\icons \
+d:\Projects\worldcup-results\client-mobile-app\platforms\android\assets\www\res\icons\android \
+d:\Projects\worldcup-results\client-mobile-app\platforms\android\assets\www\res\icons\ios \
+d:\Projects\worldcup-results\client-mobile-app\platforms\android\assets\www\res\icons\android\icon-36-ldpi.png \
+d:\Projects\worldcup-results\client-mobile-app\platforms\android\assets\www\res\icons\android\icon-48-mdpi.png \
+d:\Projects\worldcup-results\client-mobile-app\platforms\android\assets\www\res\icons\android\icon-72-hdpi.png \
+d:\Projects\worldcup-results\client-mobile-app\platforms\android\assets\www\res\icons\android\icon-96-xhdpi.png \
+d:\Projects\worldcup-results\client-mobile-app\platforms\android\assets\www\res\icons\ios\icon-57-2x.png \
+d:\Projects\worldcup-results\client-mobile-app\platforms\android\assets\www\res\icons\ios\icon-57.png \
+d:\Projects\worldcup-results\client-mobile-app\platforms\android\assets\www\res\icons\ios\icon-72-2x.png \
+d:\Projects\worldcup-results\client-mobile-app\platforms\android\assets\www\res\icons\ios\icon-72.png \
 d:\Projects\worldcup-results\client-mobile-app\platforms\android\ant-build\AndroidManifest.xml \
