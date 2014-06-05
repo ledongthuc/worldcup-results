@@ -51,8 +51,4 @@ angular.module('worldcupResults.controllers', [])
 		error(function(data, status, headers, config) {
 			$scope.showError = true;
 		});
-  }])
-  .controller('DonationController', ['$scope', '$rootScope', function($scope, $rootScope) {
-	  	$rootScope.title = "Beer ?";
-	  	$rootScope.selectedMenu = "donation";
   }]);
