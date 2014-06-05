@@ -1,4 +1,18 @@
 d:\Projects\worldcup-results\client-mobile-app\platforms\android\ant-build\classes.dex : \
+d:\Projects\worldcup-results\client-mobile-app\platforms\android\ant-build\classes\org\apache\cordova\inappbrowser\InAppBrowser$1.class \
+d:\Projects\worldcup-results\client-mobile-app\platforms\android\ant-build\classes\org\apache\cordova\inappbrowser\InAppBrowser$2.class \
+d:\Projects\worldcup-results\client-mobile-app\platforms\android\ant-build\classes\org\apache\cordova\inappbrowser\InAppBrowser$3.class \
+d:\Projects\worldcup-results\client-mobile-app\platforms\android\ant-build\classes\org\apache\cordova\inappbrowser\InAppBrowser$4$1.class \
+d:\Projects\worldcup-results\client-mobile-app\platforms\android\ant-build\classes\org\apache\cordova\inappbrowser\InAppBrowser$4.class \
+d:\Projects\worldcup-results\client-mobile-app\platforms\android\ant-build\classes\org\apache\cordova\inappbrowser\InAppBrowser$5$1.class \
+d:\Projects\worldcup-results\client-mobile-app\platforms\android\ant-build\classes\org\apache\cordova\inappbrowser\InAppBrowser$5$2.class \
+d:\Projects\worldcup-results\client-mobile-app\platforms\android\ant-build\classes\org\apache\cordova\inappbrowser\InAppBrowser$5$3.class \
+d:\Projects\worldcup-results\client-mobile-app\platforms\android\ant-build\classes\org\apache\cordova\inappbrowser\InAppBrowser$5$4.class \
+d:\Projects\worldcup-results\client-mobile-app\platforms\android\ant-build\classes\org\apache\cordova\inappbrowser\InAppBrowser$5.class \
+d:\Projects\worldcup-results\client-mobile-app\platforms\android\ant-build\classes\org\apache\cordova\inappbrowser\InAppBrowser$InAppBrowserClient.class \
+d:\Projects\worldcup-results\client-mobile-app\platforms\android\ant-build\classes\org\apache\cordova\inappbrowser\InAppBrowser.class \
+d:\Projects\worldcup-results\client-mobile-app\platforms\android\ant-build\classes\org\apache\cordova\inappbrowser\InAppBrowserDialog.class \
+d:\Projects\worldcup-results\client-mobile-app\platforms\android\ant-build\classes\org\apache\cordova\inappbrowser\InAppChromeClient.class \
 d:\Projects\worldcup-results\client-mobile-app\platforms\android\ant-build\classes\vn\com\thuc\worldcupresults\BuildConfig.class \
 d:\Projects\worldcup-results\client-mobile-app\platforms\android\ant-build\classes\vn\com\thuc\worldcupresults\R$attr.class \
 d:\Projects\worldcup-results\client-mobile-app\platforms\android\ant-build\classes\vn\com\thuc\worldcupresults\R$drawable.class \

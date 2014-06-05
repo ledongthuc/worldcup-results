@@ -5,6 +5,9 @@
     <feature name="App">
         <param name="android-package" value="org.apache.cordova.App" />
     </feature>
+    <feature name="InAppBrowser">
+        <param name="android-package" value="org.apache.cordova.inappbrowser.InAppBrowser" />
+    </feature>
     <name>WorldCup Results</name>
     <description>
         WorldCup Results will bring you all the latest results and upcoming fixtures on the road to Brazil 2014.
