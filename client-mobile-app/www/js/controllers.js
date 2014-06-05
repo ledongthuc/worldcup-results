@@ -19,7 +19,7 @@ angular.module('worldcupResults.controllers', [])
   }])
   .controller('MatchesController', ['$scope', '$http', '$resource', function($scope, $http, $resource) {
   
-		$scope.groups = $resource("match.json",{},{
+		$scope.groups = $resource("#/match.json",{},{
 			query:{method:'GET'}
 		}).get();
   
@@ -36,7 +36,7 @@ angular.module('worldcupResults.controllers', [])
   }])
   .controller('GroupsController', ['$scope', '$http', '$resource', function($scope, $http, $resource) {
 		
-		$scope.groups = $resource("group.json",{},{
+		$scope.groups = $resource("#/group.json",{},{
 			query:{method:'GET'}
 		}).get();
   
