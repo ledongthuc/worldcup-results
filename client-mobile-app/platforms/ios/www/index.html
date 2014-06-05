@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" ng-app="worldcupResults" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" ng-app="worldcupResults" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" ng-app="worldcupResults" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" ng-app="worldcupResults" class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  <title>WorldCup Results</title>
+  <meta name="description" content="WorldCup Results">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, usr-scalable=no">
+  <meta name="msapplication-tap-highlight" content="no" />
+  <meta name="format-detection" content="telephone=no" />
+  
+  <link href="components/boostrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/app.css" rel="stylesheet">
+  
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="components/boostrap/js/html5shiv.js"></script>
+      <script src="components/boostrap/js/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+
+	   <!-- Navigation -->
+	<nav id="topNavigation" class="navbar navbar-default navbar-fixed-top" role="navigation">
+     <div id="topNavigation-background" class="container-fluid">
+      <div class="text-right">
+      	
+      	<a class="navbar-brand">WorldCup Results</a>
+      	<button type="button" class="btn btn-default navbar-btn " data-toggle="collapse" data-target="#collapseOne">
+		    <span class="glyphicon glyphicon-align-justify"></span>
+		 </button>
+      </div>
+	    
+	  <div id="collapseOne" class="panel-collapse collapse">
+         <div class="panel-body">
+		  <table class="table table-borderless">
+			  <tr>
+			     <td align="center" valign="middle">
+					<a href="#/home">
+				     <img width="80%" src="images/dwelling1.svg" class="img-responsive" alt="Home"/>
+				   </a>
+			     </td>
+			     <td align="center" valign="middle">
+				   <a href="#/matches">
+				     <img width="80%" src="images/football65.svg" class="img-responsive" alt="Matches"/>
+				   </a>
+			     </td>
+			  </tr>
+			  <tr>
+			     <td align="center" valign="middle">
+				   <a href="#/groups">
+				     <img width="80%" src="images/football84.svg" class="img-responsive" alt="Groups"/>
+				   </a>
+			     </td>
+			     <td align="center" valign="middle">
+				   <a href="#/donation">
+				     <img width="80%" src="images/drink24.svg" class="img-responsive" alt="Buy me a beer"/>
+				   </a>
+			     </td>
+			  </tr>
+			</table>
+	     </div>
+
+
+		</div> 
+	  </div>
+
+	</nav>
+
+  <div ng-view></div>
+
+  <script src="components/angular/angular.min.js"></script>
+  <script src="components/angular-route/angular-route.min.js"></script>
+  <script src="components/angular-resource/angular-resource.min.js"></script>
+  <script src="components/jquery/jquery.min.js"></script>
+  <script src="components/boostrap/js/bootstrap.min.js"></script>
+
+  <script src="js/app.js"></script>
+  <script src="js/services.js"></script>
+  <script src="js/controllers.js"></script>
+  <script src="js/filters.js"></script>
+  <script src="js/directives.js"></script> 
+</body>
+</html>
