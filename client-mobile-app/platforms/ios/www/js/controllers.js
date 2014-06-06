@@ -3,8 +3,11 @@
 /* Controllers */
 
 angular.module('worldcupResults.controllers', [])
-  .controller('HomeController', ['$scope', '$http', function($scope, $http) {
-		  
+  .controller('HomeController', ['$scope', '$rootScope', '$http', function($scope, $rootScope, $http) {
+	  
+	  $rootScope.title = "WorldCup";
+	  $rootScope.selectedMenu = "home";
+	  
 	  var currentDate = new Date()
 	  var currentTimeZone = - currentDate.getTimezoneOffset();
 	  var currentDateNow = currentDate.getFullYear() + "-" + currentDate.getMonth() + "-" + currentDate.getDate();
@@ -20,7 +23,11 @@ angular.module('worldcupResults.controllers', [])
 		});
 	  
   }])
-  .controller('MatchesController', ['$scope', '$http', '$resource', function($scope, $http, $resource) {
+  .controller('MatchesController', ['$scope', '$rootScope', '$http', '$resource', function($scope, $rootScope, $http, $resource) {
+	  
+	  	$rootScope.title = "Matches";
+	  	$rootScope.selectedMenu = "matches";
+	  
 		var currentDate = new Date()
 		var currentTimeZone = - currentDate.getTimezoneOffset();
 		var currentDateNow = currentDate.getFullYear() + "-" + currentDate.getMonth() + "-" + currentDate.getDate();
@@ -31,8 +38,11 @@ angular.module('worldcupResults.controllers', [])
 			$scope.showError = true;
 		});
   }])
-  .controller('GroupsController', ['$scope', '$http', '$resource', function($scope, $http, $resource) {
+  .controller('GroupsController', ['$scope', '$rootScope', '$http', '$resource', function($scope, $rootScope, $http, $resource) {
 		
+	  	$rootScope.title = "Groups";
+	  	$rootScope.selectedMenu = "groups";
+	  
 		var currentDate = new Date()
 		var currentTimeZone = - currentDate.getTimezoneOffset();
 		$http.get('http://worldcup.thaosin.com/group.php').success(function(data) {
@@ -41,7 +51,4 @@ angular.module('worldcupResults.controllers', [])
 		error(function(data, status, headers, config) {
 			$scope.showError = true;
 		});
-  }])
-  .controller('DonationController', ['$scope', function($scope) {
-
   }]);

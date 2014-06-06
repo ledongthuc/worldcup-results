@@ -27,7 +27,8 @@
 	content: "\e003";
 }
 body { padding-top: 70px; background: url("../images/bg.png") center top 51px; padding-bottom: 58px}
-.menu { margin: 0px auto; width: 90% }
+.menu
+ { margin: 0px auto; width: 90% }
 .table > thead > tr > th, 
 .table > tbody > tr > th, 
 .table > tfoot > tr > th, 
@@ -37,7 +38,8 @@ body { padding-top: 70px; background: url("../images/bg.png") center top 51px; p
     border: none;
 }
 .seperator { width: 90% }
-.hideMenuPanel { width: 100%; height: 300px }
+.hideMenu
+Panel { width: 100%; height: 300px }
 .navbar-default { background-color: transparent; border: none;}
 #topNavigation-background { background-color: #F8F8F8}
 .errorPanel {
@@ -48,8 +50,28 @@ body { padding-top: 70px; background: url("../images/bg.png") center top 51px; p
 	width: 100%;
 }
 #topNavigation-background {
-	background-color: #246E1F;
+	background-color: #009b3a;
 }
 #topNavigation-background a.navbar-brand {
 	color: white;
+}
+.menuBorder { 
+	background: none repeat scroll 0% 0% white; 
+	display: block; 
+	border: 1px solid gray;
+	border-radius: 10px; 
+	padding: 7%;
+	margin: 3%;
+}
+.menuBorder.selected {
+	background: none transparent;
+	border: none;
+}
+.table.menu {
+	padding-bottom: 0px;
+	margin: 0px;
+	width: auto;
+}
+.table.menu > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+	padding: 0px;
 }

@@ -14,7 +14,6 @@ config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/home', {templateUrl: 'partials/home.html', controller: 'HomeController'});
   $routeProvider.when('/matches', {templateUrl: 'partials/matches.html', controller: 'MatchesController'});
   $routeProvider.when('/groups', {templateUrl: 'partials/groups.html', controller: 'GroupsController'});
-  $routeProvider.when('/donation', {templateUrl: 'partials/donation.html', controller: 'DonationController'});
   $routeProvider.otherwise({redirectTo: '/home'});
 }]).
 config(function($httpProvider) {
