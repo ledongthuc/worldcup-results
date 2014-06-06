@@ -13,10 +13,9 @@
    id="Capa_1"
    x="0px"
    y="0px"
-   width="64px"
-   height="64px"
-   viewBox="0 0 64 64"
-   style="enable-background:new 0 0 64 64;"
+   width="50"
+   height="50"
+   viewBox="0 0 50 50"
    xml:space="preserve"
    inkscape:version="0.48.4 r9939"
    sodipodi:docname="football65.svg"><metadata
@@ -44,7 +43,7 @@
      inkscape:window-maximized="1"
      inkscape:current-layer="Capa_1" /><g
      id="g3"
-     transform="translate(1.1627907,0)"
+     transform="matrix(0.85892943,0,0,0.85892943,-1.6268123,-2.4882933)"
      style="fill:#246e1f;fill-opacity:1"><path
        d="M 59.106,12.313 H 2.894 c -0.553,0 -1,0.448 -1,1 v 38.226 c 0,0.552 0.447,1 1,1 h 56.212 c 0.552,0 1,-0.448 1,-1 V 13.313 c 0,-0.552 -0.448,-1 -1,-1 z m -1,37.226 c 0,0.552 -0.447,1 -1,1 H 4.894 c -0.553,0 -1,-0.448 -1,-1 V 15.313 c 0,-0.552 0.447,-1 1,-1 h 52.212 c 0.553,0 1,0.448 1,1 v 34.226 z"
        id="path5"

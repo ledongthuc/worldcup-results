@@ -104,13 +104,14 @@ d:\Projects\worldcup-results\client-mobile-app\platforms\android\assets\www\css\
 d:\Projects\worldcup-results\client-mobile-app\platforms\android\assets\www\images\beer.png \
 d:\Projects\worldcup-results\client-mobile-app\platforms\android\assets\www\images\bg.png \
 d:\Projects\worldcup-results\client-mobile-app\platforms\android\assets\www\images\btn_donateCC_LG.gif \
-d:\Projects\worldcup-results\client-mobile-app\platforms\android\assets\www\images\drink24.svg \
 d:\Projects\worldcup-results\client-mobile-app\platforms\android\assets\www\images\dwelling1.svg \
+d:\Projects\worldcup-results\client-mobile-app\platforms\android\assets\www\images\dwelling1_selected.svg \
 d:\Projects\worldcup-results\client-mobile-app\platforms\android\assets\www\images\flags \
 d:\Projects\worldcup-results\client-mobile-app\platforms\android\assets\www\images\football65.svg \
+d:\Projects\worldcup-results\client-mobile-app\platforms\android\assets\www\images\football65_selected.svg \
 d:\Projects\worldcup-results\client-mobile-app\platforms\android\assets\www\images\football84.svg \
+d:\Projects\worldcup-results\client-mobile-app\platforms\android\assets\www\images\football84_selected.svg \
 d:\Projects\worldcup-results\client-mobile-app\platforms\android\assets\www\images\fuleco.jpg \
-d:\Projects\worldcup-results\client-mobile-app\platforms\android\assets\www\images\menu2 \
 d:\Projects\worldcup-results\client-mobile-app\platforms\android\assets\www\images\pixel.gif \
 d:\Projects\worldcup-results\client-mobile-app\platforms\android\assets\www\images\flags\algeria.png \
 d:\Projects\worldcup-results\client-mobile-app\platforms\android\assets\www\images\flags\argentina.png \
@@ -144,10 +145,6 @@ d:\Projects\worldcup-results\client-mobile-app\platforms\android\assets\www\imag
 d:\Projects\worldcup-results\client-mobile-app\platforms\android\assets\www\images\flags\switzerland.png \
 d:\Projects\worldcup-results\client-mobile-app\platforms\android\assets\www\images\flags\united-states.png \
 d:\Projects\worldcup-results\client-mobile-app\platforms\android\assets\www\images\flags\uruguay.png \
-d:\Projects\worldcup-results\client-mobile-app\platforms\android\assets\www\images\menu2\drink24.svg \
-d:\Projects\worldcup-results\client-mobile-app\platforms\android\assets\www\images\menu2\dwelling1.svg \
-d:\Projects\worldcup-results\client-mobile-app\platforms\android\assets\www\images\menu2\football65.svg \
-d:\Projects\worldcup-results\client-mobile-app\platforms\android\assets\www\images\menu2\football84.svg \
 d:\Projects\worldcup-results\client-mobile-app\platforms\android\assets\www\js\app.js \
 d:\Projects\worldcup-results\client-mobile-app\platforms\android\assets\www\js\controllers.js \
 d:\Projects\worldcup-results\client-mobile-app\platforms\android\assets\www\js\directives.js \
