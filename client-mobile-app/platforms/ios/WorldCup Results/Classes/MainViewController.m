@@ -69,6 +69,11 @@
     // you can do so here.
 
     [super viewWillAppear:animated];
+    
+    if ([[[UIDevice currentDevice] systemVersion] floatValue] >= 7.0) {
+        UIScreen *screen = [UIScreen mainScreen];
+        [self.webView setFrame:CGRectMake(0, 20, screen.bounds.size.width, screen.bounds.size.height - 20)];
+    }
 }
 
 - (void)viewDidLoad

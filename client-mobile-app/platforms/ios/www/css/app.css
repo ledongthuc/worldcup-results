@@ -27,8 +27,6 @@
 	content: "\e003";
 }
 body { padding-top: 70px; background: url("../images/bg.png") center top 51px; padding-bottom: 58px}
-.menu
- { margin: 0px auto; width: 90% }
 .table > thead > tr > th, 
 .table > tbody > tr > th, 
 .table > tfoot > tr > th, 
@@ -56,21 +54,24 @@ Panel { width: 100%; height: 300px }
 	color: white;
 }
 .menuBorder { 
-	background: none repeat scroll 0% 0% white; 
-	display: block; 
-	border: 1px solid gray;
-	border-radius: 10px; 
-	padding: 7%;
-	margin: 3%;
-}
-.menuBorder.selected {
 	background: none transparent;
+	display: block; 
 	border: none;
+	border-radius: 3px;
+	margin: 3px;
+       padding: 0px 7px;
+	width: 50px;
+	height: 50px;
+}
+.menuBorder.menuActive {
+	background: none repeat scroll 0% 0% transparent;
+	border: 1px solid white;
 }
 .table.menu {
 	padding-bottom: 0px;
 	margin: 0px;
 	width: auto;
+	float: right;
 }
 .table.menu > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
 	padding: 0px;
