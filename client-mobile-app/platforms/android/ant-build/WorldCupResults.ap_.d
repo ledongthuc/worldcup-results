@@ -167,8 +167,8 @@ d:\Projects\worldcup-results\client-mobile-app\platforms\android\assets\www\res\
 d:\Projects\worldcup-results\client-mobile-app\platforms\android\assets\www\res\icons\android\icon-48-mdpi.png \
 d:\Projects\worldcup-results\client-mobile-app\platforms\android\assets\www\res\icons\android\icon-72-hdpi.png \
 d:\Projects\worldcup-results\client-mobile-app\platforms\android\assets\www\res\icons\android\icon-96-xhdpi.png \
-d:\Projects\worldcup-results\client-mobile-app\platforms\android\assets\www\res\icons\ios\icon-57-2x.png \
-d:\Projects\worldcup-results\client-mobile-app\platforms\android\assets\www\res\icons\ios\icon-57.png \
-d:\Projects\worldcup-results\client-mobile-app\platforms\android\assets\www\res\icons\ios\icon-72-2x.png \
-d:\Projects\worldcup-results\client-mobile-app\platforms\android\assets\www\res\icons\ios\icon-72.png \
+d:\Projects\worldcup-results\client-mobile-app\platforms\android\assets\www\res\icons\ios\icon-60.png \
+d:\Projects\worldcup-results\client-mobile-app\platforms\android\assets\www\res\icons\ios\icon-60@2x.png \
+d:\Projects\worldcup-results\client-mobile-app\platforms\android\assets\www\res\icons\ios\icon.png \
+d:\Projects\worldcup-results\client-mobile-app\platforms\android\assets\www\res\icons\ios\icon@2x.png \
 d:\Projects\worldcup-results\client-mobile-app\platforms\android\ant-build\AndroidManifest.xml \
