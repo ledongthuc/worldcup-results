@@ -1,0 +1,17 @@
+{
+    "launch_path": "/index.html",
+    "installs_allowed_from": [
+        "*"
+    ],
+    "version": "0.0.1",
+    "name": "WorldCup Results",
+    "pkgName": "vn.com.thuc.worldcupresults",
+    "description": "WorldCup Results will bring you all the latest results and upcoming fixtures on the road to Brazil 2014.",
+    "developer": {
+        "name": "Thuc Le",
+        "url": "http://thuc.com.vn"
+    },
+    "icons": {
+        "60": "/icon-60.png"
+    }
+}
