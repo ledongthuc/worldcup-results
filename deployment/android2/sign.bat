@@ -1,0 +1,1 @@
+jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore android_fengshui_keystore WorldCupResults-release-unsigned.apk fengshui

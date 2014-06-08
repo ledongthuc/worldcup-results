@@ -1,0 +1,1 @@
+zipalign.exe -v 4 WorldCupResults-release.apk WorldCupResults_aligned.apk

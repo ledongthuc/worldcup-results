@@ -1,0 +1,1 @@
+jarsigner -verify -verbose WorldCupResults-release.apk
