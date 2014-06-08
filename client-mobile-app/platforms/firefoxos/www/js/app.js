@@ -9,6 +9,10 @@ angular.module('worldcupResults', [
   'worldcupResults.services',
   'worldcupResults.directives',
   'worldcupResults.controllers'
+])
+.config(['$compileProvider', function($compileProvider) {
+        $compileProvider.aHrefSanitizationWhitelist(/^\s*(https?|ftp|mailto|app):/);
+    }
 ]).
 config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/home', {templateUrl: 'partials/home.html', controller: 'HomeController'});

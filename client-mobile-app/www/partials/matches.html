@@ -13,7 +13,7 @@
 		<table class="table" ng-show="matches">
 			<tr ng-repeat="match in matches">
 				<td align="center" width="30%">
-					<img src="images/flags/{{match.team1Flag}}" alt="???" /><br/>
+					<img ng-src="images/flags/{{match.team1Flag}}" alt="???" /><br/>
 					{{match.team1Name}}
 				</td>
 				<td align="right" valign="middle">

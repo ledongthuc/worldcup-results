@@ -9,7 +9,4 @@
     </author>
     <content src="index.html" />
     <access origin="*" />
-	<platform name="firefoxos">
-              <icon src="res/ff/logo.png" width="60" height="60" />
-     </platform>
 </widget>
